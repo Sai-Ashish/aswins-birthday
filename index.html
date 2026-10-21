@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Aswin’s Birthday — Born to Shine</title>
+  <meta name="description" content="A Naruto-inspired birthday celebration for Aswin. The memories, the birthday film, and a message to keep that fighting spirit alive.">
+  <meta name="theme-color" content="#171b1e">
+  <meta property="og:title" content="Happy Birthday, Aswin">
+  <meta property="og:description" content="Your story. Your fighting spirit. Your next chapter. Happy birthday, Aswin!">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/poster.jpg">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to the celebration</a>
+  <header class="site-header">
+    <a class="wordmark" href="#home" aria-label="Aswin’s Birthday, home"><span class="wordmark-star" aria-hidden="true">✺</span> Aswin’s birthday</a>
+    <nav aria-label="Main navigation"><a href="#film">The episode</a><a href="#memories">The memories</a><a href="#wish">Your next chapter <span aria-hidden="true">↗</span></a></nav>
+  </header>
+  <button class="motion-toggle" id="motion-toggle" type="button" aria-pressed="false" aria-label="Pause decorative animations"><span aria-hidden="true">Ⅱ</span><span id="motion-label">Pause motion</span></button>
+  <main id="main">
+    <section class="hero" id="home" aria-labelledby="birthday-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="fine-line" aria-hidden="true"></span> A new chapter begins</p>
+        <h1 id="birthday-title"><span class="birthday-line">Happy birthday,</span><span class="name-line">Aswin<span class="title-star" aria-hidden="true">✦</span></span></h1>
+        <p class="hero-note">Your story. Your fighting spirit.<br>A whole new chapter to make your own.</p>
+        <a class="button button-gold" href="#film"><span class="play-icon" aria-hidden="true">▶</span> Play the birthday episode <span class="button-arrow" aria-hidden="true">↗</span></a>
+        <p class="hero-dedication">A Naruto-inspired celebration. Made with love.</p>
+        <div class="hero-action" aria-hidden="true"><div class="hero-speed-lines"></div><span class="manga-shout">Believe it!</span><div class="hero-ninja"><span class="chakra-halo"></span><span class="ninja-sprite pose-rasengan"></span></div></div>
+      </div>
+      <figure class="hero-photo"><div class="headband" aria-hidden="true"><span></span><svg viewBox="0 0 80 40" fill="none"><path d="M56 20c0 10-8 16-18 16-11 0-20-7-20-17 0-8 6-14 14-14 8 0 14 5 14 12 0 5-4 9-9 9-4 0-7-3-7-7 0-3 2-5 5-5" stroke="currentColor" stroke-width="3.3" stroke-linecap="round"/><path d="m18 28-9 7 3-13M51 7 63 3l-4 11" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg><span></span></div>
+        <div class="photo-frame"><img src="assets/hero.jpg" alt="Aswin smiling beside a mountain lake" fetchpriority="high" decoding="async"></div>
+        <figcaption><span>The main character, always.</span><span aria-hidden="true">NEXT CHAPTER ↗</span></figcaption>
+      </figure>
+      <div class="hero-footer"><span>Lieutenant · Indian Army</span><a href="#film">Scroll to the good stuff <span aria-hidden="true">↓</span></a></div>
+    </section>
+
+    <section class="film-section section-pad" id="film" aria-labelledby="film-title">
+      <div class="section-heading"><div><p class="eyebrow">Episode 01 / The birthday film</p><h2 id="film-title">This one’s<br><em>all about you.</em></h2></div><p>A few favourite memories.<br>One very special birthday episode.</p></div>
+      <div class="film-frame"><video id="birthday-video" controls controlslist="nodownload" playsinline preload="metadata" poster="assets/poster.jpg" aria-label="Birthday film for Aswin"><source src="assets/birthday.mp4?v=naruto" type="video/mp4">Your browser does not support this birthday film. Please view this page in a current browser.</video></div>
+      <div class="film-footer"><p>For the moments we keep coming back to.</p><button class="text-link replay-film" id="replay-film" type="button">Replay the episode <span aria-hidden="true">↻</span></button></div>
+    </section>
+
+    <section class="pride-band" aria-labelledby="pride-title"><div class="pride-mark" aria-hidden="true">✺</div><p class="eyebrow">Keep that fighting spirit</p><h2 id="pride-title">You are<br><em>born to shine.</em></h2><p>Our brother. Our pride.<br>Lieutenant, Indian Army.</p><div class="tricolour" aria-hidden="true"><i></i><i></i><i></i></div></section>
+
+
+    <section class="battle-section" id="battle" aria-labelledby="battle-title">
+      <div class="battle-scene" id="battle-scene">
+        <img class="battle-art" src="assets/naruto-battle.png" alt="Naruto and Sasuke in a dramatic anime battle, with blue chakra energy swirling between them" loading="lazy" decoding="async">
+        <div class="battle-shade" aria-hidden="true"></div><div class="battle-dashes" aria-hidden="true"><i></i><i></i><i></i></div>
+        <div class="chakra-impact" aria-hidden="true"><span></span><span></span><span></span></div>
+        <div class="battle-heading"><p class="eyebrow">The fighting spirit / Always on</p><h2 id="battle-title">Never<br><em>give up.</em></h2><p>A little shinobi spirit for your next adventure.</p></div>
+        <button class="chakra-button" id="power-up" type="button"><span class="chakra-button-orb" aria-hidden="true"></span> Power up <span aria-hidden="true">↗</span></button>
+        <div class="power-impact" aria-hidden="true"><i></i><i></i><i></i></div>
+        <p class="battle-status" id="battle-status" aria-live="polite"></p>
+      </div>
+      <div class="battle-caption"><span>Naruto × Sasuke</span><span>A birthday with main-character energy.</span><span aria-hidden="true">忍</span></div>
+    </section>
+
+    <section class="memories-section section-pad" id="memories" aria-labelledby="memories-title">
+      <div class="section-heading"><div><p class="eyebrow">Episode 02 / The memory arc</p><h2 id="memories-title">Every great story<br><em>has these moments.</em></h2></div><div class="memory-intro"><p>Small moments. Big feelings.<br>Tap a photograph to take a closer look.</p><div class="gallery-ninja" aria-hidden="true"><span class="ninja-sprite pose-kick"></span><i class="kick-swoosh"></i></div></div></div>
+      <div class="gallery">
+        <figure class="memory memory-tall"><button class="photo-button" type="button" data-gallery="0" aria-label="Open memory 1"><img src="assets/gallery-01.jpg" alt="Aswin smiling in a shirt and tie" loading="lazy" decoding="async"><span class="photo-open" aria-hidden="true">↗</span></button><figcaption><span>A smile worth keeping</span><span>01</span></figcaption></figure>
+        <figure class="memory"><button class="photo-button" type="button" data-gallery="1" aria-label="Open memory 2"><img src="assets/gallery-02.jpg" alt="Aswin wearing his Army field uniform" loading="lazy" decoding="async"><span class="photo-open" aria-hidden="true">↗</span></button><figcaption><span>Proud moments</span><span>02</span></figcaption></figure>
+        <figure class="memory memory-wide"><button class="photo-button" type="button" data-gallery="2" aria-label="Open memory 3"><img src="assets/gallery-03.jpg" alt="Family together on a green hillside" loading="lazy" decoding="async"><span class="photo-open" aria-hidden="true">↗</span></button><figcaption><span>Family, always</span><span>03</span></figcaption></figure>
+        <figure class="memory"><button class="photo-button" type="button" data-gallery="3" aria-label="Open memory 4"><img src="assets/gallery-04.jpg" alt="Two smiling men taking a selfie by a waterfall" loading="lazy" decoding="async"><span class="photo-open" aria-hidden="true">↗</span></button><figcaption><span>The adventure arc</span><span>04</span></figcaption></figure>
+        <figure class="memory"><button class="photo-button" type="button" data-gallery="4" aria-label="Open memory 5"><img src="assets/gallery-05.jpg" alt="Two men celebrating a graduation milestone" loading="lazy" decoding="async"><span class="photo-open" aria-hidden="true">↗</span></button><figcaption><span>Milestones together</span><span>05</span></figcaption></figure>
+        <figure class="memory memory-wide"><button class="photo-button" type="button" data-gallery="5" aria-label="Open memory 6"><img src="assets/gallery-06.jpg" alt="A family photograph at Universal Studios" loading="lazy" decoding="async"><span class="photo-open" aria-hidden="true">↗</span></button><figcaption><span>Days with the family</span><span>06</span></figcaption></figure>
+        <figure class="memory"><button class="photo-button" type="button" data-gallery="6" aria-label="Open memory 7"><img src="assets/gallery-07.jpg" alt="A portrait beside a waterfall" loading="lazy" decoding="async"><span class="photo-open" aria-hidden="true">↗</span></button><figcaption><span>Chasing waterfalls</span><span>07</span></figcaption></figure>
+        <figure class="memory memory-tall"><button class="photo-button" type="button" data-gallery="7" aria-label="Open memory 8"><img src="assets/gallery-08.jpg" alt="Aswin standing at the beach at sunset" loading="lazy" decoding="async"><span class="photo-open" aria-hidden="true">↗</span></button><figcaption><span>Golden-hour memories</span><span>08</span></figcaption></figure>
+      </div>
+    </section>
+
+    <div class="clone-parade" aria-hidden="true"><div class="clone-strip"><span class="ninja-sprite pose-clone clone-one"></span><span class="ninja-sprite pose-clone clone-two"></span><span class="ninja-sprite pose-clone clone-three"></span></div><p>Keep going.<br><em>Keep growing.</em></p><span class="clone-stamp">Shadow clone jutsu!</span></div>
+
+    <section class="wish-section" id="wish" aria-labelledby="wish-title">
+      <div class="wish-side-ninja wish-ninja-left" aria-hidden="true"><span class="ninja-sprite pose-rasengan"></span></div><div class="wish-side-ninja wish-ninja-right" aria-hidden="true"><span class="ninja-sprite pose-kick"></span></div><div class="scroll-top" aria-hidden="true"></div><div class="wish-inner"><p class="eyebrow">The next chapter / A message for you</p><div class="wish-rule" aria-hidden="true">✺</div><h2 id="wish-title">Aswin,</h2>
+      <blockquote><p>your hardwork and determination has got you till here, never lose the hope and the fighting spirit, you are born to shine;</p><footer>- Be the Naruto</footer></blockquote>
+      <div class="wish-victory" aria-hidden="true"><span class="ninja-sprite pose-victory"></span></div><p class="wish-signature">Happy birthday. Keep writing your story.</p><button class="button button-dark" id="celebrate" type="button">Celebrate Aswin <span aria-hidden="true">✦</span></button><p class="celebration-message" id="celebration-message" aria-live="polite"></p></div><div class="scroll-bottom" aria-hidden="true"></div>
+    </section>
+  </main>
+  <footer class="site-footer"><a class="wordmark" href="#home">Aswin’s birthday <span aria-hidden="true">✦</span></a><span>With love. Believe it.</span><a href="#home">Back to the top <span aria-hidden="true">↑</span></a></footer>
+  <dialog class="lightbox" id="lightbox" aria-label="Birthday photo gallery"><div class="lightbox-toolbar"><p id="lightbox-counter" aria-live="polite">Memory 1 of 8</p><button id="close-lightbox" class="icon-button" type="button" aria-label="Close photo gallery">×</button></div><div class="lightbox-stage"><button id="previous-photo" class="icon-button gallery-arrow" type="button" aria-label="Previous photograph">←</button><img id="lightbox-image" src="assets/gallery-01.jpg" alt=""><button id="next-photo" class="icon-button gallery-arrow" type="button" aria-label="Next photograph">→</button></div><p class="lightbox-caption" id="lightbox-caption"></p></dialog>
+  <canvas id="confetti" aria-hidden="true"></canvas>
+</body>
+</html>
